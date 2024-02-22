@@ -1,20 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Tiles", "Obj2Tiles\Obj2Tiles.csproj", "{F6224877-3A95-48B1-8BB6-A9B39D4AE2C8}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Tiles", "Obj2Tiles\Obj2Tiles.csproj", "{F6224877-3A95-48B1-8BB6-A9B39D4AE2C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Tiles.Library", "Obj2Tiles.Library\Obj2Tiles.Library.csproj", "{566E1AF1-252D-49F4-BD5D-AB41C45BD38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Tiles.Library", "Obj2Tiles.Library\Obj2Tiles.Library.csproj", "{566E1AF1-252D-49F4-BD5D-AB41C45BD38D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Tiles.Library.Test", "Obj2Tiles.Library.Test\Obj2Tiles.Library.Test.csproj", "{54DA9B0D-75B8-43B5-A704-5870B8FDA465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Tiles.Library.Test", "Obj2Tiles.Library.Test\Obj2Tiles.Library.Test.csproj", "{54DA9B0D-75B8-43B5-A704-5870B8FDA465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeshDecimatorCore", "MeshDecimatorCore\MeshDecimatorCore.csproj", "{BF40855D-9C70-41C7-9116-975B3720220F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshDecimatorCore", "MeshDecimatorCore\MeshDecimatorCore.csproj", "{BF40855D-9C70-41C7-9116-975B3720220F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Tiles.Test", "Obj2Tiles.Test\Obj2Tiles.Test.csproj", "{8D547495-44B8-4AB7-8DF3-9F9755B52DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Tiles.Test", "Obj2Tiles.Test\Obj2Tiles.Test.csproj", "{8D547495-44B8-4AB7-8DF3-9F9755B52DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Gltf", "Obj2Gltf\Obj2Gltf.csproj", "{9FCD0D81-B20A-4022-AFD5-EAFD458771D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Gltf", "Obj2Gltf\Obj2Gltf.csproj", "{9FCD0D81-B20A-4022-AFD5-EAFD458771D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B3C78679-791A-4617-BD84-8E725B8151F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obj2Tiles.Common", "Obj2Tiles.Common\Obj2Tiles.Common.csproj", "{6AFF35B1-E6BB-4EAB-8AB8-6096E09EBC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obj2Tiles.Common", "Obj2Tiles.Common\Obj2Tiles.Common.csproj", "{6AFF35B1-E6BB-4EAB-8AB8-6096E09EBC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDObj2Tiles.Test", "GDObj2Tiles.Test\GDObj2Tiles.Test.csproj", "{47407BA3-E717-4D98-B726-7C41455755C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +55,13 @@ Global
 		{6AFF35B1-E6BB-4EAB-8AB8-6096E09EBC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFF35B1-E6BB-4EAB-8AB8-6096E09EBC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFF35B1-E6BB-4EAB-8AB8-6096E09EBC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47407BA3-E717-4D98-B726-7C41455755C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47407BA3-E717-4D98-B726-7C41455755C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47407BA3-E717-4D98-B726-7C41455755C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47407BA3-E717-4D98-B726-7C41455755C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BF40855D-9C70-41C7-9116-975B3720220F} = {B3C78679-791A-4617-BD84-8E725B8151F9}
