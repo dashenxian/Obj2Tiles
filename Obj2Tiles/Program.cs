@@ -24,7 +24,7 @@ namespace Obj2Tiles
             }
         }
 
-        private static async Task Run(Options opts)
+        internal static async Task Run(Options opts)
         {
             Console.WriteLine();
             Console.WriteLine(" *** OBJ to Tiles ***");

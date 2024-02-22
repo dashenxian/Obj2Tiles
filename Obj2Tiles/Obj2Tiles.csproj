@@ -1,14 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <IsPackable>false</IsPackable>
         <AssemblyVersion>1.0.12</AssemblyVersion>
         <FileVersion>1.0.12</FileVersion>
         <InvariantGlobalization>true</InvariantGlobalization>
+	    <PackageId>Obj2Tiles</PackageId>
+	    <Version>1.0.12</Version>
+	    <PackageTags>Obj2Tiles;obj;3dtiles</PackageTags>
+	    <Description>
+			Obj2Tiles is a fully fledged tool to convert OBJ files to 3D Tiles format. It creates multiple LODs, splits the mesh and repacks the textures.
+		</Description>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,5 +24,4 @@
     <ItemGroup>
       <PackageReference Include="CommandLineParser" Version="2.9.1" />
     </ItemGroup>
-
 </Project>
